@@ -4,8 +4,8 @@
   <ShortName>Everything I know</ShortName>
   <Description>Search Everything I know</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://whnisbett.github.io/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://whnisbett.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://whnisbett.github.io/opensearch.xml" />
-  <moz:SearchForm>https://whnisbett.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://whnisbett.github.io/knowledge/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://whnisbett.github.io/knowledge/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://whnisbett.github.io/knowledge/opensearch.xml" />
+  <moz:SearchForm>https://whnisbett.github.io/knowledge/</moz:SearchForm>
 </OpenSearchDescription>
