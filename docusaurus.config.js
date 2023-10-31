@@ -10,6 +10,7 @@ const config = {
   tagline: "Everything I know",
   url: "https://whnisbett.github.io",
   baseUrl: "/knowledge/",
+  trailingSlash: true,
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
