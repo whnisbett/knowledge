@@ -1,1 +1,1 @@
-Latest version of my personal wiki can be seen on [wiki.nikiv.dev](http://wiki.nikiv.dev/)
+Latest version of my personal wiki can be seen on [whnisbett.github.io](http://whnisbett.github.io/)

@@ -8,12 +8,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Everything I know",
   tagline: "Everything I know",
-  url: "https://wiki.nikiv.dev",
-  baseUrl: "/",
+  url: "https://whnisbett.github.io",
+  baseUrl: "/knowledge/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "nikitavoloboev", // Usually your GitHub org/user name.
+  organizationName: "whnisbett", // Usually your GitHub org/user name.
   projectName: "knowledge", // Usually your repo name.
 
   presets: [
@@ -25,7 +25,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           // Please change this to your repo.
-          editUrl: "https://github.com/nikitavoloboev/knowledge/tree/main/",
+          editUrl: "https://github.com/whnisbett/knowledge/tree/main/",
         },
         blog: false,
         theme: {
@@ -54,27 +54,22 @@ const config = {
         },
         items: [
           {
-            href: "https://www.instagram.com/nikitavoloboev/",
+            href: "https://www.instagram.com/bnisbett.jpg/",
             position: "right",
             label: "📷",
           },
           {
-            href: "https://twitter.com/nikitavoloboev",
+            href: "https://twitter.com/whnisbett",
             position: "right",
             label: "🐦",
           },
           {
-            href: "https://github.com/nikitavoloboev",
+            href: "https://github.com/whnisbett",
             position: "right",
             label: "🐙",
           },
           {
-            href: "https://nikiv.dev",
-            position: "right",
-            label: "🏡",
-          },
-          {
-            href: "https://github.com/nikitavoloboev/knowledge",
+            href: "https://github.com/whnisbett/knowledge",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -85,12 +80,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      //TODO: get Algolia running
       algolia: {
         // Application ID provided by Algolia
         appId: "VZMWVWCY2I",
         // Public API key
         apiKey: "8f34bfba01b4422d26cce783e7792f75",
-        indexName: "nikiv",
+        indexName: "whnisbett",
       },
     }),
 };
