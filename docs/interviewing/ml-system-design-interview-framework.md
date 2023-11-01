@@ -31,6 +31,7 @@ Similarly, some questions will have obvious answers and not need asking. Instead
 - **Will the product need to be personalized to each user? If so, what kind of user data do we have available to us?**
 - **Are there any minimum performance requirements we need to meet?**
 	- e.g. latency requirements? accuracy/precision requirements?
+ 
  ## 2. High-level system architecture
 - **Propose the metrics you will use to evaluate the system in production (and offline if applicable)**
 	- Decide this based on the business-level goals set out above
