@@ -12,7 +12,7 @@ Why does optimizing a good evaluation metric not also optimize the target? I see
 1. We identify a desired behavior that we wish to stimulate and observe its outcomes.
 2. We notice a subset of those outcomes are well correlated with the desired behavior and easily quantifiable. This makes them good candidates for evaluation metrics
 ![user_engagement_causal_mech_forward](__assets/img/user_engagement_causal_mech_forward.png)
-3. In an attempt to stoke the desired behavior, we implement treatments that stimulates this subset of outcomes. In doing so, we are trying to flip the causal diagram, asserting that our improved metrics necessarily lead to the desired behavior. Unfortunately, that's not how causality works, as this leads to undesirable side effects (e.g. prevalence of clickbait when optimizing for CTR).
+3. In an attempt to stoke the desired behavior, we implement a treatment to stimulate this subset of outcomes, effectively trying to invert the causal diagram and claim that positive outcomes necessitate positive user engagement. Unfortunately, causality rarely works this way.
 ![user engagement casual diagram flipped](__assets/img/user%20engagement%20casual%20diagram%20flipped.png)
 ---
 # Resources

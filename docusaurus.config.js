@@ -60,11 +60,6 @@ const config = {
             label: "📷",
           },
           {
-            href: "https://twitter.com/whnisbett",
-            position: "right",
-            label: "🐦",
-          },
-          {
             href: "https://github.com/whnisbett",
             position: "right",
             label: "🐙",
