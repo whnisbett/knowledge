@@ -8,13 +8,7 @@ The framework is arranged (mostly) chronologically. If your interviewer wants yo
 
 You do not need to address every point during the interview. Some points may be irrelevant. Use your best judgement here on which to leave out. 
 
-Similarly, some questions will have obvious answers and not need asking. Instead, you can simply confirm the answer aloud with the interviewer. A good chunk of points in technical interviews comes from simply demonstrating that you understand the problem – this strategy helps ensure you tick those boxes
-## Outline 
-1. Clarify and gather requirement
-2. High-level system architecture
-3. Data and feature engineering
-4. Modeling
-5. Model serving
+Similarly, some questions will have obvious answers and not need asking. Instead, you can simply confirm the answer aloud with the interviewer. A good chunk of points in technical interviews comes from simply demonstrating that you understand the problem – this strategy helps ensure you tick those boxes.
 ## 1. Clarify and gather requirements
 - **Repeat back the problem in your own words.** 
 	- Demonstrates to interviewer that you understand the problem
@@ -31,12 +25,15 @@ Similarly, some questions will have obvious answers and not need asking. Instead
 - **Will the product need to be personalized to each user? If so, what kind of user data do we have available to us?**
 - **Are there any minimum performance requirements we need to meet?**
 	- e.g. latency requirements? accuracy/precision requirements?
-
-
- ## 2. High-level system architecture
-- **Propose the metrics you will use to evaluate the system in production (and offline if applicable)**
+## 2. High-level system architecture
+- **Propose the metrics you will use to evaluate the system both in production and offline**
 	- Decide this based on the business-level goals set out above
 	- Worth acknowledging that most metrics are just measurable proxies for our goals, and not the goals themselves. CTR ≠ user engagement and [it's dangerous to believe otherwise](../goodharts-law.md).
+- **Propose a high-level architecture for the system**
+	- Does not need to be completely fleshed out at this point – the next sections are responsible for that.
+	- When in doubt, most ML systems have the following generic structure:
+
+![generic-ml-system-diagram](../__assets/img/generic-ml-system-diagram.png)
 
 ---
 # Resources
