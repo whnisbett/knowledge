@@ -7,8 +7,6 @@ I developed this framework in 2021 while interviewing for machine learning roles
 The framework is arranged (mostly) chronologically. If your interviewer wants you to focus on specific aspects of the problem (e.g. more modeling, less data engineering), you may need to jump around a bit. Otherwise, if they let you drive the discussion, I feel you can quite literally just go down this list.
 
 You do not need to address every point during the interview. Some points may be irrelevant. Use your best judgement here on which to leave out. 
-
-Similarly, some questions will have obvious answers and not need asking. Instead, you can simply confirm the answer aloud with the interviewer. A good chunk of points in technical interviews comes from simply demonstrating that you understand the problem – this strategy helps ensure you tick those boxes.
 ## 1. Clarify and gather requirements
 
 - **Repeat back the problem in your own words.**
