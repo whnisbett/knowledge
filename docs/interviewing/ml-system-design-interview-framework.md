@@ -26,7 +26,7 @@ You do not need to address every point during the interview. Some points may be 
 ## 2. High-level system architecture
 - **Propose the metrics you will use to evaluate the system both in production and offline**
 	- Decide this based on the business-level goals set out above
-	- Worth acknowledging that most metrics are just measurable proxies for our goals, and not the goals themselves. CTR ≠ user engagement and [it's dangerous to believe otherwise](../goodharts-law.md).
+	- Worth acknowledging that most metrics are just measurable proxies for our goals, and not the goals themselves. CTR ≠ user engagement and [it's dangerous to believe otherwise](mathematics/goodharts-law.md).
 - **Propose a high-level architecture for the system**
 	- Serves as an outline for the discussion ahead
 	- Does not need to be completely fleshed out at this point

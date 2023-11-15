@@ -12,10 +12,10 @@ Why does optimizing for a good evaluation metric not also optimize the target? I
 1. We identify a desired behavior that we wish to stimulate and observe its outcomes.
 2. We notice a subset of those outcomes are well correlated with the desired behavior and easily quantifiable. This makes them good candidates for evaluation metrics
 
-![user_engagement_causal_mech_forward](__assets/img/user_engagement_causal_mech_forward.png)
+![user_engagement_causal_mech_forward](../__assets/img/user_engagement_causal_mech_forward.png)
 3. To stoke the desired behavior, we implement a treatment to stimulate this subset of outcomes. This is effectively an attempt to invert the causal diagram and assert that positive subset of outcomes necessitates an improvement in the desired behavior. Unfortunately, causality rarely works this way.
 
-![](__assets/img/user%20engagement%20casual%20diagram%20flipped.png)
+![](../__assets/img/user%20engagement%20casual%20diagram%20flipped.png)
 
 ---
 # Resources
