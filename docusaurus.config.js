@@ -79,10 +79,10 @@ const config = {
       //TODO: get Algolia running
       algolia: {
         // Application ID provided by Algolia
-        appId: "VZMWVWCY2I",
+        appId: "LT84UGUMGW",
         // Public API key
-        apiKey: "8f34bfba01b4422d26cce783e7792f75",
-        indexName: "whnisbett",
+        apiKey: "3cbe40eec1a05f7d521dddac983389e7",
+        indexName: "knowledge",
       },
     }),
 };
