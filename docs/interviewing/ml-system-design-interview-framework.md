@@ -74,6 +74,12 @@ Under each discussion point, I have included a few key questions you should prep
 	- Probably does not need an exhaustive discussion, Acknowledging that some data is PII (e.g. user data) and thus sensitive is probably sufficient
 - **Data biases**
 	- Again, probably does not warrant an exhaustive discussion – acknowledging the potential presence of (social) biases in the dataset and that the model could learn to reinforce these biases is probably sufficient
+## 4. Modeling
+- **Is there a relatively simple model that could perform well on our task?**
+	- *What makes this type of model more suitable than some other simple models?*
+	- *What are the pros and cons of choosing this model?*
+- **What about more complex model architectures? Is there something that could give SOTA performance on our task?**
+	- *What are the pros and cons of choosing this model?*
 
 ---
 # Resources
