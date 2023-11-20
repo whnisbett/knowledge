@@ -5,7 +5,7 @@ title: Modulation Transfer Function (MTF)
 * The MTF characterizes an optical system's ability to recreate contrast from a scene
 * More precisely, the MTF describes an imaging system's response to spatial frequencies. 
 * The MTF of an imaging systems tends to decrease as spatial frequency increases
-- MTFs are real-, positive-valued functions with a range [0,1]
+* MTFs are real-, positive-valued functions with a range [0,1]
 
 ![mtf-graph](../__assets/img/mtf-graph.png)
 
