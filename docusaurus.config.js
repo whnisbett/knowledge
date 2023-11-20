@@ -1,8 +1,8 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require("prism-react-renderer").themes.github;
+const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -27,14 +27,12 @@ const config = {
           routeBasePath: "/",
           // Please change this to your repo.
           editUrl: "https://github.com/whnisbett/knowledge/tree/main/",
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        gtag: {
-          trackingID: "G-09WN3KZ5T3",
-          anonymizeIP: true,
         },
       }),
     ],
@@ -76,7 +74,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      //TODO: get Algolia running
       algolia: {
         // Application ID provided by Algolia
         appId: "LT84UGUMGW",
@@ -85,6 +82,15 @@ const config = {
         indexName: "knowledge",
       },
     }),
+    stylesheets: [
+      {
+        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+        type: 'text/css',
+        integrity:
+          'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+        crossorigin: 'anonymous',
+      },
+    ],
 };
 
 module.exports = config;
